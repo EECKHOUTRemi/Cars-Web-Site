@@ -1,0 +1,46 @@
+.site_container {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.initialD {
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.para_mercedes {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 50px;
+}
+
+.titre_para {
+    display: flex;
+    flex-direction: column;
+}
+
+.mercedesSLR {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 738px) {
+
+    .para_mercedes{
+        flex-direction: column;
+    }
+
+    .mercedesSLR {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .titre_para {
+        text-align: center;
+    }
+    
+}
